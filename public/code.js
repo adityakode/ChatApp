@@ -94,7 +94,7 @@
 /* cSpell:disable */
 (function () {
     const app = document.querySelector(".app");
-    const socket = io("https://chat-app-server-amber-five.vercel.app/");
+    const socket = io();
 
     let uname;
 
