@@ -94,7 +94,7 @@
 /* cSpell:disable */
 (function () {
     const app = document.querySelector(".app");
-    const socket = io();
+    const socket = io('https://0d2edb2d-f7c0-40a2-b8aa-d4d3f47d7db2-00-3gqd6rqybyb4w.pike.replit.dev/');
 
     let uname;
 
